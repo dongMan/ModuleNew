@@ -1,0 +1,14 @@
+//
+//  define.pch
+//  DXJItem
+//
+//  Created by 董雪娇 on 2020/3/8.
+//  Copyright © 2020 董雪娇. All rights reserved.
+//
+
+#ifndef define_pch
+#define define_pch
+#import "DXJItem-Swift.h"
+
+
+#endif /* define_pch */

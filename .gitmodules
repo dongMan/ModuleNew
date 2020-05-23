@@ -1,0 +1,12 @@
+[submodule "MBasis"]
+	path = MBasis
+	url = git@github.com:dongMan/MBasis.git
+[submodule "MTestC"]
+	path = MTestC
+	url = git@github.com:dongMan/MTestC.git
+[submodule "MTestA"]
+	path = MTestA
+	url = git@github.com:dongMan/MTestA.git
+[submodule "MTestB"]
+	path = MTestB
+	url = git@github.com:dongMan/MTestB.git
