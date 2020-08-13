@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -182,8 +182,8 @@
 				F53500BE2413649F0019DB86 /* Sources */,
 				F53500BF2413649F0019DB86 /* Frameworks */,
 				F53500C02413649F0019DB86 /* Resources */,
-				8AE90E0F3D5CA63EB8EF17F6 /* [CP] Embed Pods Frameworks */,
-				5872AF9FA35658059662408F /* [CP] Copy Pods Resources */,
+				F27A6A870642A0327CA28DA4 /* [CP] Embed Pods Frameworks */,
+				67000BC4EFD82235D451D8E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,38 +302,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5872AF9FA35658059662408F /* [CP] Copy Pods Resources */ = {
+		67000BC4EFD82235D451D8E4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DXJItem/Pods-DXJItem-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DXJItem/Pods-DXJItem-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DXJItem/Pods-DXJItem-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8AE90E0F3D5CA63EB8EF17F6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DXJItem/Pods-DXJItem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DXJItem/Pods-DXJItem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DXJItem/Pods-DXJItem-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E794AB3943794D91A99827A7 /* [CP] Check Pods Manifest.lock */ = {
@@ -356,6 +337,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27A6A870642A0327CA28DA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DXJItem/Pods-DXJItem-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -547,6 +543,7 @@
 				DEVELOPMENT_TEAM = XYA9VBR3KK;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DXJItem/define.pch";
 				INFOPLIST_FILE = DXJItem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -570,6 +567,7 @@
 				DEVELOPMENT_TEAM = XYA9VBR3KK;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/DXJItem/define.pch";
 				INFOPLIST_FILE = DXJItem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
